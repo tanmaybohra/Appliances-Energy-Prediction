@@ -6,11 +6,11 @@ This project deals with predicting appliances energy consumption of a particular
 The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru) and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non-predictive attributes (parameters).
 
 # Dataset Link
-<link rel="Appliance Energy Data" href="http://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction">
+<link rel="http://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction" href="Appliance Energy Data">
 
 # Dataset Information
-Number of instances: 19,735
-Number of attributes: 29
+  Number of instances: 19,735
+  Number of attributes: 29
 
 # Attribute Information
   1. date: year-month-day hour:minute:second
